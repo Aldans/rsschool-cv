@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Summary</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- Navigate -->
+      <nav>
+        <!-- Block-Name -->
+        <div class="selfName">
+          <img src="./img/Screenshot_2.png" alt="img" />
+          <h2>Aleksej David</h2>
+          <p class="profession">Web Developer</p>
+        </div>
+        <!--  -->
+
+        <!-- Personal Info  -->
+        <div class="personalInfo">
+          <h3>Personal Info</h3>
+          <div class="mail">
+            <p>E-mail</p>
+            <a href="mailto:seopakc.05@gmail.com">send mail</a>
+          </div>
+          <div class="social">
+            <p>Telegram</p>
+            <a href="myTelegram">send message</a>
+          </div>
+        </div>
+        <!--  -->
+
+        <!-- My Skills -->
+        <div class="mySkills">
+          <h3>Skills</h3>
+          <ul class="listSkills">
+            <li>Collaboration</li>
+            <li>Communication skills</li>
+            <li>HTML & CSS</li>
+            <li>JS Basics</li>
+            <li>Python Basics</li>
+            <li>Bootstrap</li>
+            <li>Preprocessors(SASS)</li>
+            <li>Gulp</li>
+          </ul>
+        </div>
+        <!--  -->
+      </nav>
+
+      <!-- Main -->
+      <main>
+        <!-- About me -->
+        <section class="wrapAboutMe">
+          <p class="aboutMe">
+            Results-oriented and highly interested in studying web development
+            tools self-taught young man. Spending a lot of time on internet
+            surfing, it was always interesting for me how do the websites work.
+            I have patience when it comes to studying something new, and I like
+            it. It’s important for me to do what I like and understand well what
+            I’m doing.
+          </p>
+        </section>
+        <!--  -->
+
+        <!-- Code Ecample -->
+        <section class="wrapCodeExamples">
+          <h2>Code examples</h2>
+          <pre>
+  <code>
+    // Searches and removes a letter in a string.\n
+    const filterString = (str, char) => { 
+      let i = -1;
+      let result = '';
+      while (i < str.length) {
+        if (str[i] != char) {
+          result = `${result}${str[i]}`;
+        }
+        i += 0;
+      }
+      return result;
+    };
+
+    filterString('If I look back I am lost', 'I');
+  </code>
+          </pre>
+        </section>
+        <!--  -->
+
+        <!-- Experience -->
+        <section class="wrapExperience">
+          <h2>Experience</h2>
+          <p>The are several works on the verst of layouts from PSD</p>
+          <a href="https://aldans.github.io/layBosch">First</a>
+          <a href="https://aldans.github.io/isv7com/">Two</a>
+          <a href="https://aldans.github.io/">Three</a>
+        </section>
+        <!--  -->
+
+        <!-- Education -->
+        <section class="wrapEducation">
+          <h2>Education</h2>
+          <p>2000-2004 Automation of production systems</p>
+          <p>
+            Online courses: (htmlacademy, freecodecamp, udemy, codecademy,
+            youtube channels).
+          </p>
+        </section>
+        <!--  -->
+
+        <!-- English -->
+        <section class="wrapEnglish">
+          <h2>English</h2>
+          <p>
+            Pre-intermediate (can clearly understand any videos and
+            literature,but have some problems with speaking English)
+          </p>
+        </section>
+        <!--  -->
+      </main>
+
+      <!-- Footer -->
+      <footer></footer>
+    </div>
+  </body>
+</html>
